@@ -1,1 +1,1 @@
-# LDGC_EpicJam
+# EpicMegaJam2023

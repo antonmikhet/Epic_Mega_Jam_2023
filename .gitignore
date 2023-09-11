@@ -1,5 +1,6 @@
 # Visual Studio 2015 user specific files
 .vs/
+.idea/*
 
 # Compiled Object files
 *.slo
@@ -52,6 +53,12 @@ Plugins/*/Binaries/*
 # Builds
 Build/*
 
+#SomeCache
+enc_temp_folder/*
+
+# Samples
+Samples/*
+
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
@@ -72,3 +79,23 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#Ignore binary imagees and other
+*.jpg
+*.fbx
+*.xml
+*.png
+*.gltf
+*.glb
+*.bin
+
+#Ignore DevelopersContent and External Content
+Content/Developers*
+Content/__ExternalActors__*
+Content/__ExternalObjects__*
+
+
+!AdditionalFiles/*
+!EpicMegaJam2023.png*
+.vsconfig*
+.DS_Store*
