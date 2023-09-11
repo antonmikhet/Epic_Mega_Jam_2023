@@ -56,6 +56,8 @@ Build/*
 #SomeCache
 enc_temp_folder/*
 
+Platforms/*
+
 # Samples
 Samples/*
 
