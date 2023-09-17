@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 23,
+	"VersionName": "1.0.4-5.0",
+	"FriendlyName": "Tether",
+	"Description": "Create cables, ropes, flexible pipes, and anything similar. Tether simulates physics and builds static meshes in-editor, allowing rapid creation and iteration using a non-destructive workflow.",
+	"Category": "Editor",
+	"CreatedBy": "Sam Bonifacio",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/en-US/profile/Sam+Bonifacio",
+	"DocsURL": "https://acren.github.io/TetherDocs/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6af7e44eb9594b56b6530ca7a9ebf799",
+	"SupportURL": "https://acren.github.io/TetherDocs/support",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Tether",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "TetherEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		}
+	]
+}
