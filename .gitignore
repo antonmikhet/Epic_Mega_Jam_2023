@@ -101,3 +101,5 @@ Content/__ExternalObjects__*
 !EpicMegaJam2023.png*
 .vsconfig*
 .DS_Store*
+Build/*
+Platforms/*
