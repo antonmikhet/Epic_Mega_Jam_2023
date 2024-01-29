@@ -29,6 +29,7 @@
 	],
 	"TargetPlatforms": [
 		"Windows",
-		"HoloLens"
+		"HoloLens",
+		"Linux"
 	]
 }
